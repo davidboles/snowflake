@@ -18,3 +18,7 @@ The file build.conf serves as a small-scale rsyslog.conf file. I install that fi
 
 The python script rewriter.py is the executable invoked by the mmexternal plugin. It is adapted directly from posted credit card number example. The comments were deleted solely for brevity.
 
+### Desired result
+
+The file result.json contains an example desired output from processing the log message originated by ultest. in the general case, the members of the "elements" array can be arbitrary JSON data derived from the flat structured log data generated via ul_syslog().
+
