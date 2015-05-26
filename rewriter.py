@@ -54,7 +54,7 @@ def transform_log_entry(entry):
 
 def onInit():
 	global outfile
-        outfile = open("/home/dboles/scratch/rsyslog/test0/rewriter.trace", "w", 1)
+        outfile = open("/tmp/rewriter.trace", "w", 1)
 
 def onReceive(msg):
 	global outfile
